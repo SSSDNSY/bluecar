@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:background="#87CEEB" >
+    
+    <!--关闭按钮 -->
+    <ImageButton 
+        android:id="@+id/close"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/close"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/close"/>
+    <!--A  -->
+    <ImageButton 
+        android:id="@+id/a"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/a"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="108dp"
+        android:layout_marginRight="50dp"
+        android:scaleType="fitCenter"/>
+    <!--B  -->
+    <ImageButton 
+        android:id="@+id/b"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+		android:background="@drawable/b"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="80dp"
+        android:scaleType="fitCenter"/>
+    <!-- 连接按钮 -->
+    <ImageButton 
+        android:id="@+id/conn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/conn1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="1dp"
+        android:scaleType="fitCenter"/>
+    <!--标准件stop  -->
+    <ImageButton
+        android:id="@+id/stop"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="92dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/stop2"
+        android:scaleType="fitCenter"  />
+	
+	<!--右  -->
+    <ImageButton
+        android:id="@+id/right"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_up"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="174dp"
+        android:layout_marginRight="100dp"
+        android:scaleType="fitCenter"/>
+	<!--左  -->
+    <ImageButton
+        android:id="@+id/left"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_down"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="100dp"
+        android:scaleType="fitCenter"/>
+	<!--上  -->
+    <ImageButton
+        android:id="@+id/up"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_left"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="90dp"
+        android:layout_marginRight="182dp"
+        android:scaleType="fitCenter" />
+	<!--下  -->
+    <ImageButton
+        android:id="@+id/down"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/btn_right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="90dp"
+        android:layout_marginRight="18dp"
+        android:scaleType="fitCenter"/>
+    
+	<!--消息框 -->
+
+    <TextView
+        android:id="@+id/ctlmsg"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/conn"
+        android:layout_below="@+id/a"
+        android:layout_marginTop="36dp"
+        android:editable="false"
+        android:rotation="270"
+        android:gravity="center_horizontal"
+        android:text="LOADING..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="21sp" />
+
+
+</RelativeLayout>
